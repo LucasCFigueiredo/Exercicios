@@ -1,0 +1,2 @@
+Faça um método que receba duas strings e retorna uma nova string misturando as outras duas. Exemplo: string1="ace" e string2="fdb" que resultaria na string3="abcdef". 
+A entrada possuí vários casos de teste e termina com EOF.

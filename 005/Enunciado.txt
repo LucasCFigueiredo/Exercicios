@@ -1,0 +1,2 @@
+Faça um método que receba uma matriz quadrada 3x3 de inteiros e retorna o menor elemento da linha que está o maior elemento da matriz.
+A entrada possuí vários casos de teste e termina com EOF. Em caso de empate escolha o elemento que foi identificado com maior ou menor primmeiro.

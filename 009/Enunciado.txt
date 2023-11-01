@@ -1,0 +1,2 @@
+Faça um método que receba os valores de a,b,c e retorna se os valores formam ou não um triângulo, sendo a,b,c números inteiros.
+A entrada termina com EOF.

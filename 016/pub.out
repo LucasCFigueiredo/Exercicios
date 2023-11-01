@@ -1,0 +1,37 @@
+In CoMpUtEr ScIeNcE, rEcUrSiOn Is A mEtHoD oF sOlViNg A cOmPuTaTiOnAl PrObLeM wHeRe ThE sOlUtIoN dEpEnDs On SoLuTiOnS tO sMaLlEr InStAnCeS oF tHe SaMe PrObLeM.
+ReCuRsIoN sOlVeS sUcH rEcUrSiVe PrObLeMs By UsInG fUnCtIoNs ThAt CaLl ThEmSeLvEs FrOm WiThIn ThEiR oWn CoDe. ThE aPpRoAcH cAn Be ApPlIeD tO mAnY tYpEs Of PrObLeMs,
+AnD rEcUrSiOn Is OnE oF tHe CeNtRaL iDeAs Of CoMpUtEr ScIeNcE.
+ThE pOwEr Of ReCuRsIoN eViDeNtLy LiEs In ThE pOsSiBiLiTy Of DeFiNiNg An InFiNiTe SeT oF oBjEcTs By A fInItE sTaTeMeNt.
+In ThE sAmE mAnNeR, aN iNfInItE nUmBeR oF cOmPuTaTiOnS cAn Be DeScRiBeD bY a FiNiTe ReCuRsIvE pRoGrAm, EvEn If ThIs PrOgRaM cOnTaInS nO eXpLiCiT rEpEtItIoNs.
+NiKlAuS wIrTh, AlGoRiThMs + DaTa StRuCtUrEs = PrOgRaMs, 1976
+MoSt CoMpUtEr PrOgRaMmInG lAnGuAgEs SuPpOrT rEcUrSiOn By AlLoWiNg A fUnCtIoN tO cAlL iTsElF fRoM wItHiN iTs OwN cOdE.
+SoMe FuNcTiOnAl PrOgRaMmInG lAnGuAgEs (FoR iNsTaNcE, cLoJuRe)[5] Do NoT dEfInE aNy LoOpInG cOnStRuCtS bUt ReLy SoLeLy On ReCuRsIoN tO rEpEaTeDlY cAlL cOdE.
+It Is PrOvEd In CoMpUtAbIlItY tHeOrY tHaT tHeSe ReCuRsIvE-oNlY lAnGuAgEs ArE tUrInG cOmPlEtE; tHiS mEaNs ThAt ThEy ArE aS pOwErFuL (tHeY cAn Be UsEd To SoLvE tHe SaMe PrObLeMs)
+As ImPeRaTiVe LaNgUaGeS bAsEd On CoNtRoL sTrUcTuReS sUcH aS wHiLe AnD fOr.
+RePeAtEdLy CaLlInG a FuNcTiOn FrOm WiThIn ItSeLf MaY cAuSe ThE cAlL sTaCk To HaVe A sIzE eQuAl To ThE sUm Of ThE iNpUt SiZeS oF aLl InVoLvEd CaLlS.
+It FoLlOwS tHaT, fOr PrObLeMs ThAt CaN bE sOlVeD eAsIlY bY iTeRaTiOn, ReCuRsIoN iS gEnErAlLy LeSs EfFiCiEnT, aNd, FoR lArGe PrObLeMs,
+It Is FuNdAmEnTaL tO uSe OpTiMiZaTiOn TeChNiQuEs SuCh As TaIl CaLl OpTiMiZaTiOn.[CiTaTiOn NeEdEd]
+ReCuRsIvE fUnCtIoNs AnD aLgOrItHmS a CoMmOn AlGoRiThM dEsIgN tAcTiC iS tO dIvIdE a PrObLeM iNtO sUb-PrObLeMs Of ThE sAmE tYpE aS tHe OrIgInAl,
+SoLvE tHoSe SuB-pRoBlEmS, aNd CoMbInE tHe ReSuLtS. tHiS iS oFtEn ReFeRrEd To As ThE dIvIdE-aNd-CoNqUeR mEtHoD; wHeN cOmBiNeD wItH a LoOkUp TaBlE
+ThAt StOrEs ThE rEsUlTs Of PrEvIoUsLy SoLvEd SuB-pRoBlEmS (tO aVoId SoLvInG tHeM rEpEaTeDlY aNd InCuRrInG eXtRa CoMpUtAtIoN tImE), iT cAn Be
+ReFeRrEd To As DyNaMiC pRoGrAmMiNg Or MeMoIzAtIoN.
+BaSe CaSe
+A rEcUrSiVe FuNcTiOn DeFiNiTiOn HaS oNe Or MoRe BaSe CaSeS, mEaNiNg InPuT(s) FoR wHiCh ThE fUnCtIoN pRoDuCeS a ReSuLt TrIvIaLlY (wItHoUt ReCuRrInG), aNd OnE oR mOrE rEcUrSiVe CaSeS, mEaNiNg
+InPuT(s) FoR wHiCh ThE pRoGrAm ReCuRs (CaLlS iTsElF). fOr ExAmPlE, tHe FaCtOrIaL fUnCtIoN cAn Be DeFiNeD rEcUrSiVeLy By ThE eQuAtIoNs 0! = 1 AnD, fOr AlL n > 0, N! = n(N − 1)!. nEiThEr
+EqUaTiOn By ItSeLf CoNsTiTuTeS a CoMpLeTe DeFiNiTiOn; ThE fIrSt Is ThE bAsE cAsE, aNd ThE sEcOnD iS tHe ReCuRsIvE cAsE. bEcAuSe ThE bAsE cAsE bReAkS tHe ChAiN oF rEcUrSiOn, It Is SoMeTiMeS
+AlSo CaLlEd ThE "tErMiNaTiNg CaSe".
+ThE jOb Of ThE rEcUrSiVe CaSeS cAn Be SeEn As BrEaKiNg DoWn CoMpLeX iNpUtS iNtO sImPlEr OnEs.
+In A pRoPeRlY dEsIgNeD rEcUrSiVe FuNcTiOn, WiTh EaCh ReCuRsIvE cAlL, tHe InPuT pRoBlEm MuSt Be SiMpLiFiEd In SuCh A wAy ThAt EvEnTuAlLy ThE bAsE cAsE mUsT bE rEaChEd. (FuNcTiOnS tHaT aRe NoT
+InTeNdEd To TeRmInAtE uNdEr NoRmAl CiRcUmStAnCeS—fOr ExAmPlE, sOmE sYsTeM aNd SeRvEr PrOcEsSeS—aRe An ExCePtIoN tO tHiS.) nEgLeCtInG tO wRiTe A bAsE cAsE, oR tEsTiNg FoR iT iNcOrReCtLy, CaN
+CaUsE aN iNfInItE lOoP.
+FoR sOmE fUnCtIoNs (SuCh As OnE tHaT cOmPuTeS tHe SeRiEs FoR e = 1/0! + 1/1! + 1/2! + 1/3! + ...) ThErE iS nOt An ObViOuS bAsE cAsE iMpLiEd By ThE iNpUt DaTa; FoR tHeSe OnE mAy AdD a
+PaRaMeTeR (sUcH aS tHe NuMbEr Of TeRmS tO bE aDdEd, In OuR sErIeS eXaMpLe) To PrOvIdE a 'StOpPiNg CrItErIoN' tHaT eStAbLiShEs ThE bAsE cAsE. sUcH aN eXaMpLe Is MoRe NaTuRaLlY tReAtEd By
+CoReCuRsIoN,[hOw?] WhErE sUcCeSsIvE tErMs In ThE oUtPuT aRe ThE pArTiAl SuMs;
+ThIs CaN bE cOnVeRtEd To A rEcUrSiOn By UsInG tHe InDeXiNg PaRaMeTeR tO sAy "CoMpUtE tHe NtH tErM (nTh PaRtIaL sUm)".
+ReCuRsIvE dAtA tYpEs
+MaNy CoMpUtEr PrOgRaMs MuSt PrOcEsS oR gEnErAtE aN aRbItRaRiLy LaRgE qUaNtItY oF dAtA. rEcUrSiOn Is A tEcHnIqUe FoR rEpReSeNtInG dAtA wHoSe ExAcT sIzE iS uNkNoWn To ThE pRoGrAmMeR: tHe 
+PrOgRaMmEr CaN sPeCiFy ThIs DaTa WiTh A sElF-rEfErEnTiAl DeFiNiTiOn. ThErE aRe TwO tYpEs Of SeLf-ReFeReNtIaL dEfInItIoNs: InDuCtIvE aNd CoInDuCtIvE dEfInItIoNs.
+FuRtHeR iNfOrMaTiOn: AlGeBrAiC dAtA tYpE
+InDuCtIvElY dEfInEd DaTa
+MaIn ArTiClE: rEcUrSiVe DaTa TyPe
+An InDuCtIvElY dEfInEd ReCuRsIvE dAtA dEfInItIoN iS oNe ThAt SpEcIfIeS hOw To CoNsTrUcT iNsTaNcEs Of ThE dAtA. fOr ExAmPlE, lInKeD lIsTs CaN bE dEfInEd InDuCtIvElY (hErE, uSiNg HaSkElL sYnTaX):

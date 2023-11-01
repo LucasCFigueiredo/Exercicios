@@ -1,0 +1,1 @@
+Faça um método que receba uma string e retorna a string retirando os símbolos e sinais. A entrada possuí vários casos de teste e termina com EOF.

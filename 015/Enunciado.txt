@@ -1,0 +1,2 @@
+Faça um método para encriptar uma mensagem, a criptografia será da seguinte forma: para toda letra na string deverá ser somado 3 ao seu valor ASCII. 
+A entrada possuí vários casos de teste e termina com EOF e a saída será as strings criptografadas. 

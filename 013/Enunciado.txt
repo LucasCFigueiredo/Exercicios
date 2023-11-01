@@ -1,0 +1,1 @@
+Faça um método que receba uma string e retorna a quantidade de consoantes. A entrada termina com EOF.

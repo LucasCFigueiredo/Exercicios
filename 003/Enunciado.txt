@@ -1,0 +1,2 @@
+Faça um método que receba uma matriz quadrada 3x3 de inteiros e retorna a média dos elementos que não fazem parte da diagonal principal e secundária.
+A entrada possuí vários casos de teste e termina com EOF. A saída terá 2 casas decimais.

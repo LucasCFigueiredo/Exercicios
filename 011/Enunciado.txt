@@ -1,0 +1,2 @@
+Alvin é um esquilo e todo dia ele come metade da comida do seu estoque. Faça um método recursivo que recebe a quantidade de comida que Alvin possui e 
+retorna quantos dias esse estoque vai durar. A entrada termina com EOF.

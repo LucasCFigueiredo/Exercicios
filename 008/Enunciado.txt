@@ -1,0 +1,2 @@
+Faça um método que receba 3 notas de N alunos e retorna se o aluno foi aprovado ou reprovado. A média de aprovação é 6 e N é um número inteiro e é informado na primeira linha.
+A entrada termina com EOF.

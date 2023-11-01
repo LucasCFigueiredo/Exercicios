@@ -1,0 +1,1 @@
+Faça um método que receba um caractere e retorna se é um número, letra maiúscula, letra minúscula ou símbolo. A entrada termina com EOF.

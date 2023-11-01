@@ -1,0 +1,2 @@
+Faça um método iterativo que receba um array de inteiros e retorna a quantidade de números primos encontrados.
+A entrada possuí vários casos de teste e termina com EOF. Em caso de empate escolha o elemento que foi identificado com maior ou menor primmeiro.

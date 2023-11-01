@@ -1,0 +1,2 @@
+Faça um método que receba uma matriz quadrada 3x3 de inteiros e retorna qual diagonal possui a maior soma dos elementos.
+A entrada possuí vários casos de teste e termina com EOF. A saída será "principal","secundaria", ou "empate X" onde X é o valor da soma dos elementos.

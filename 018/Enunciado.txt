@@ -1,0 +1,3 @@
+Faça um método para validar uma senha, para a senha ser válida ela precisa ter pelo menos uma letra maiúscula, uma minúscula e um número, não pode ter sinais, acentos e 
+espaço e deve ter entre 6 e 32 caracteres. O método deve retornar "invalida" para senha inválida e "válida" para senhas válidas.
+A entrada possuí vários casos de teste e termina com EOF.
